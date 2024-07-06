@@ -1,0 +1,24 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text{
+    @apply flex items-center gap-2 mb-6 dark:text-white;
+        
+    
+}
+.span{
+    @apply text-black text-xs md:text-sm uppercase px-1.5 py-0.5 rounded-full hover:text-black transition-all cursor-pointer border border-[#F44335] dark:text-white mb-4;
+}
+.button{
+    @apply border border-[#232323] px-8 py-1 rounded-full hover:bg-[#00FF84] cursor-pointer transition-colors hover:text-black;
+}
+.dark{
+    @apply dark:text-white;
+}
+
+.last-sec{
+    background-image: url(image/brooke-cagle-g1Kr4Ozfoac-unsplash\ 2.png);
+}
